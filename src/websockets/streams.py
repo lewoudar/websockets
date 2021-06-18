@@ -118,7 +118,7 @@ class StreamReader:
 
     def discard(self) -> None:
         """
-        Discarding all buffered data, but don't end the stream.
+        Discard all buffered data, but don't end the stream.
 
         """
         del self.buffer[:]
